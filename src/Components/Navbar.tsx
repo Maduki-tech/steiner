@@ -28,7 +28,7 @@ function DesktopMenu() {
         <NavItem path="/" currentPath={pathname}>
           Home
         </NavItem>
-        <NavItem path="/portfolio" currentPath={pathname}>
+        <NavItem path="/leistungen" currentPath={pathname}>
           Unsere Leistungen
         </NavItem>
         <NavItem path="/about" currentPath={pathname}>
@@ -86,7 +86,7 @@ function MobileMenu() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/portfolio">Unsere Leistungen</Link>
+            <Link href="/leistungen">Unsere Leistungen</Link>
           </li>
           <li>
             <Link href="/about">Über uns</Link>
