@@ -62,7 +62,7 @@ function Carousel() {
   return (
     <div className="carousel mx-auto h-96 w-3/4 rounded-lg">
       <div id="slide1" className="carousel-item relative w-full">
-        <Image src={test1} alt="" className="mx-auto md:w-1/2 " />
+        <Image src={test1} alt="" className="mx-auto md:w-1/2 rounded-lg " />
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide4" className="btn-circle btn">
             ❮
@@ -73,7 +73,7 @@ function Carousel() {
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
-        <Image src={test2} alt="" className="mx-auto w-fit " />
+        <Image src={test2} alt="" className="mx-auto w-fit rounded-lg" />
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide1" className="btn-circle btn">
             ❮
@@ -84,7 +84,7 @@ function Carousel() {
         </div>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <Image src={test4} alt="" className="mx-auto w-fit " />
+        <Image src={test4} alt="" className="mx-auto w-fit rounded-lg" />
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide2" className="btn-circle btn">
             ❮
@@ -95,7 +95,7 @@ function Carousel() {
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
-        <Image src={test3} alt="" className="mx-auto w-fit " />
+        <Image src={test3} alt="" className="mx-auto w-fit rounded-lg" />
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide3" className="btn-circle btn">
             ❮

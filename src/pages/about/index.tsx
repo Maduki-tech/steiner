@@ -10,14 +10,12 @@ export default function index() {
     <>
       <Navbar />
 
-      <div className="grid place-items-center md:gap-y-8 p-8 md:grid-cols-2 md:gap-8">
-        <div>
-          <h1 className="  text-center text-2xl font-bold md:text-4xl">
-            Unsere Mission
-          </h1>
-          <Image src={mission} alt="" className="aspect-auto w-52 rounded-lg" />
-        </div>
-        <div className="mb-20 flex flex-col gap-8 text-center">
+      <h1 className="  text-center text-2xl font-bold md:text-4xl">
+        Unsere Mission
+      </h1>
+      <div className="grid place-items-center p-8 md:grid-cols-2 md:gap-8 md:gap-y-8">
+        <Image src={mission} alt="" className="aspect-auto w-52 rounded-lg" />
+        <div className="mb-20 flex flex-col gap-8 text-center w-3/4">
           <p>
             Sicherheit und Schutz für Kunden. Maßgeschneiderte Lösungen für Ihr
             Kerngeschäft. Zuverlässiger Partner.
@@ -28,7 +26,7 @@ export default function index() {
           </p>
         </div>
 
-        <div className="text-center md:col-span-2">
+        <div className="w-3/4 text-center md:col-span-2">
           <h1 className="text-2xl font-bold md:text-4xl ">Wir als Firma</h1>
           <Image
             src={logo}
