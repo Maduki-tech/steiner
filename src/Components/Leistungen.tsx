@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export const Leistungen = () => {
   return (
-    <div className="grid place-items-center gap-y-28 p-8 md:grid-cols-3 md:gap-8">
+    <div className="grid place-items-center gap-y-40 p-8 md:grid-cols-3 md:gap-8">
       <Kachel
         image={cov as HTMLImageElement}
         title="Absicherung"
