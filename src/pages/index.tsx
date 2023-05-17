@@ -3,14 +3,16 @@ import Head from "next/head";
 import Image from "next/image";
 import Hero from "~/Components/Hero";
 import { Leistungen } from "~/Components/Leistungen";
-import Navbar from "~/Components/Navbar";
 import werbung from "~/../public/steiner_werbung.png";
 import test1 from "~/../public/cov.jpg";
 import test2 from "~/../public/sean-pollock-PhYq704ffdA-unsplash.jpg";
 import test3 from "~/../public/cdc-c4IBsSCuwIU-unsplash.jpg";
 import test4 from "~/../public/collin-8FxJi5wuwKc-unsplash.jpg";
+import logoAnWand from "~/../public/WhatsApp Image 2023-05-12 at 11.31.01.jpeg";
+import auto from "~/../public/WhatsApp Image 2023-05-12 at 11.48.53.jpeg";
 import Footer from "~/Components/Footer";
 import Header from "~/Components/Header";
+import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
   return (
@@ -67,7 +69,13 @@ const Home: NextPage = () => {
               alt=""
               className="inset-0 overflow-hidden rounded-md md:absolute"
             />
-            <div className="right-0 md:absolute xl:top-20 2xl:right-52">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="right-0 md:absolute xl:top-20 2xl:right-52"
+            >
               <div className="card w-full bg-primary shadow-xl">
                 <div className="card-body">
                   <h2 className="card-title">
@@ -82,13 +90,13 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </section>
 
         <section className="py-4">
           <h1 className="mb-2 text-center text-4xl">Unsere Arbeit</h1>
-          <Carousel />
+          <Gallery />
         </section>
       </div>
       <Footer />
@@ -96,51 +104,55 @@ const Home: NextPage = () => {
   );
 };
 
-function Carousel() {
+function Gallery() {
   return (
-    <div className="carousel mx-auto h-96 w-3/4 rounded-lg">
-      <div id="slide1" className="carousel-item relative w-full">
-        <Image src={test1} alt="" className="mx-auto rounded-lg md:w-1/2 " />
-        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide4" className="btn-circle btn">
-            ❮
-          </a>
-          <a href="#slide2" className="btn-circle btn">
-            ❯
-          </a>
+    <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+      <div className="-m-1 flex flex-wrap md:-m-2">
+        <div className="flex w-1/2 flex-wrap">
+          <div className="w-1/2 p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={test1}
+            />
+          </div>
+          <div className="w-1/2 p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={test2}
+            />
+          </div>
+          <div className="w-full p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={auto}
+            />
+          </div>
         </div>
-      </div>
-      <div id="slide2" className="carousel-item relative w-full">
-        <Image src={test2} alt="" className="mx-auto w-fit rounded-lg" />
-        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide1" className="btn-circle btn">
-            ❮
-          </a>
-          <a href="#slide3" className="btn-circle btn">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide3" className="carousel-item relative w-full">
-        <Image src={test4} alt="" className="mx-auto w-fit rounded-lg" />
-        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide2" className="btn-circle btn">
-            ❮
-          </a>
-          <a href="#slide4" className="btn-circle btn">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide4" className="carousel-item relative w-full">
-        <Image src={test3} alt="" className="mx-auto w-fit rounded-lg" />
-        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide3" className="btn-circle btn">
-            ❮
-          </a>
-          <a href="#slide1" className="btn-circle btn">
-            ❯
-          </a>
+        <div className="flex w-1/2 flex-wrap">
+          <div className="w-full p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={logoAnWand}
+            />
+          </div>
+          <div className="w-1/2 p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={test3}
+            />
+          </div>
+          <div className="w-1/2 p-1 md:p-2">
+            <Image
+              alt="gallery"
+              className="block h-full w-full rounded-lg object-cover object-center"
+              src={test4}
+            />
+          </div>
         </div>
       </div>
     </div>

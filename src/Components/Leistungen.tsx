@@ -3,6 +3,7 @@ import React from "react";
 import dist from "~/../public/dist.jpg";
 import cov from "~/../public/cov.jpg";
 import mask from "~/../public/mask.jpg";
+import { motion } from "framer-motion";
 
 export const Leistungen = () => {
   return (
@@ -36,7 +37,13 @@ function Kachel({
   text: string;
 }) {
   return (
-    <div className="card image-full h-96 w-full bg-black shadow-xl">
+    <motion.div
+
+initial={{ opacity: 0, y: 20 }}
+whileInView={{ opacity: 1, y: 0 }}
+viewport={{once: true}}
+transition={{ duration: 1, delay: 0.2, ease: "easeInOut" }}
+    className="card image-full h-96 w-full bg-black shadow-xl">
       <figure>
         <Image src={image} alt="" />
       </figure>
@@ -44,6 +51,6 @@ function Kachel({
         <h2 className="card-title">{title}</h2>
         <p>{text}</p>
       </div>
-    </div>
+    </motion.div>
   );
 }

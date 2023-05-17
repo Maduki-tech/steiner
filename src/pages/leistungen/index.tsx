@@ -8,6 +8,7 @@ import objSchutz from "~/../public/collin-8FxJi5wuwKc-unsplash.jpg";
 import sicherheit from "~/../public/illumination-marketing-XzFJoQPYAuc-unsplash.jpg";
 import Footer from "~/Components/Footer";
 import Header from "~/Components/Header";
+import { motion } from "framer-motion";
 
 const posts = [
   {
@@ -93,7 +94,11 @@ export default function index() {
             </p>
             <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
               {posts.map((post, idx) => (
-                <article
+                <motion.article
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay:0.5, ease: "easeOut" }}
+                viewport={{once: true}}
                   key={idx}
                   className="relative isolate flex flex-col gap-8 lg:flex-row p-8 bg-yellow-400/10 rounded-2xl shadow-xl"
                 >
@@ -127,7 +132,7 @@ export default function index() {
                     </div>
                     <div className="mt-6 flex border-t border-yellow-700 pt-6"></div>
                   </div>
-                </article>
+                </motion.article>
               ))}
             </div>
           </div>
