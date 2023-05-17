@@ -28,7 +28,7 @@ export default function Impressum() {
           Verbindungsinformationen allgemeiner Natur erfasst.
         </div>
         <div>
-          Diese "Server-Logfiles" enthalten evtl. Informationen zu Ihrem
+          Diese Server-Logfiles enthalten evtl. Informationen zu Ihrem
           Webbrowser oder Ihrem Betriebssystem.
         </div>
         <div>
@@ -142,7 +142,7 @@ export default function Impressum() {
         </div>
         <div>
           Bei direkten oder indirekten Verweisen auf fremde Internetseiten
-          ("Links"), die außerhalb des Verantwortungsbereiches des Autors
+          (Links), die außerhalb des Verantwortungsbereiches des Autors
           liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in
           Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es
           ihm technisch möglich und zumutbar wäre, die Nutzung im Falle

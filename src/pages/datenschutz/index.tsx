@@ -17,7 +17,7 @@ const Datenschutz = () => {
             Verbindungsinformationen allgemeiner Natur erfasst.
           </div>
           <div className="mb-2">
-            Diese "Server-Logfiles" enthalten möglicherweise Informationen zu
+            Diese Server-Logfiles enthalten möglicherweise Informationen zu
             Ihrem Webbrowser oder Ihrem Betriebssystem.
           </div>
           <div className="mb-2">
@@ -37,7 +37,7 @@ const Datenschutz = () => {
             Webseite automatisch gelöscht.
           </div>
           <div className="mb-2">
-            Unter dem Menüpunkt "Kontakt / Referenzen" wird eine
+            Unter dem Menüpunkt Kontakt / Referenzen wird eine
             Google-Maps-Anfahrtskizze geladen.
           </div>
           <div className="mb-2">
@@ -45,7 +45,7 @@ const Datenschutz = () => {
             werden Daten ausgetauscht, wie z.B. Google-Cookies.
           </div>
           <div className="mb-2">
-            Auf dieser Webseite werden keine weiteren "Online-Identifikatoren"
+            Auf dieser Webseite werden keine weiteren Online-Identifikatoren
             erfasst und es werden keine Daten an Dritte, wie z.B. Google oder
             Facebook, übermittelt, noch werden Verfahren zur automatisierten
             Entscheidungsfindung (z.B. Profiling) eingesetzt.
