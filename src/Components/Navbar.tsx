@@ -6,7 +6,7 @@ import logo from "~/../public/logo 1.png";
 
 export default function Navbar() {
   return (
-    <div className="navbar md:flex-col bg-base-100">
+    <div className="navbar md:flex-col bg-gradient-to-tr from-yellow-300 to-yellow-800 text-white">
       <MobileMenu />
       <div className="navbar-end md:navbar-center flex justify-center">
         <Link href="/" className="w-28 md:w-40">
