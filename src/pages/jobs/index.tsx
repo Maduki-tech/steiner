@@ -38,7 +38,7 @@ export default function Index() {
             fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
           />
         </svg>
-        <div className="md:px-52">
+        <div className="md:px-96">
           <div className="px-4 sm:px-0">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900">
               Jobs
@@ -47,45 +47,45 @@ export default function Index() {
               Informationen zu offenen Stellen
             </p>
           </div>
-          <div className="mt-6 border-t border-yellow-300">
+          <div className="mt-6 border-t-2 border-yellow-300">
             <dl className="divide-y divide-yellow-300">
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Beschäftigungsbeginn
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   ab sofort
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Beschäftigungsmöglichkeiten
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   Vollzeit, Teilzeit, Aushilfe
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Einsatzzeiten
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   Schichtbetrieb
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Vergütung
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   nach LTV für Sicherheitsdienstleistungen in BW
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Das musst du mitbringen
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   <ul className="list-disc">
                     <li>Mindestens 18 Jahre</li>
                     <li>Qualifikation mind, SKP §34a der GewO </li>
@@ -100,10 +100,10 @@ export default function Index() {
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">
+                <dt className="text-md font-medium leading-6 text-gray-900">
                   Deine Bewerbung sollte enthalten
                 </dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <dd className="mt-1 text-md leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                   <ul className="list-disc">
                     <li>Lebenslauf</li>
                     <li>Qualifikationsnachweise</li>

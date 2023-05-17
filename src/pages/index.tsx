@@ -13,6 +13,7 @@ import auto from "~/../public/WhatsApp Image 2023-05-12 at 11.48.53.jpeg";
 import Footer from "~/Components/Footer";
 import Header from "~/Components/Header";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -62,12 +63,12 @@ const Home: NextPage = () => {
           />
         </svg>
         <Leistungen />
-        <section className="h-[30rem]">
+        <section className="h-[20rem] xl:h-[30rem]">
           <div className="container mx-auto flex flex-col gap-8 px-8 md:relative">
             <Image
               src={werbung}
               alt=""
-              className="inset-0 overflow-hidden rounded-md md:absolute"
+              className="inset-0 w-3/4 overflow-hidden rounded-md md:absolute lg:w-auto"
             />
             <motion.div
               initial={{ opacity: 0, y: 50 }}
@@ -76,17 +77,17 @@ const Home: NextPage = () => {
               viewport={{ once: true }}
               className="right-0 md:absolute xl:top-20 2xl:right-52"
             >
-              <div className="card w-full bg-primary shadow-xl">
-                <div className="card-body">
+              <div className="card w-full bg-gradient-to-tr from-yellow-500 to-yellow-700 shadow-xl">
+                <div className="card-body text-white">
                   <h2 className="card-title">
                     Wir sind da, wo sie uns brauchen
                   </h2>
                   <p>Wir halten ihr Unternehmen sicher </p>
                   <p>Rund um die Uhr für sie da!</p>
                   <div className="card-actions justify-end">
-                    <button className="btn-info btn shadow-xl">
+                    <Link href={"/kontakt"} className="btn border-0 hover:bg-white  bg-yellow-400 shadow-xl text-black">
                       Jetzt Anfragen
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
