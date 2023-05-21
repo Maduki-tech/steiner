@@ -43,7 +43,7 @@ const navigation = {
 export default function Example() {
   return (
     <footer className="bg-gradient-to-tr from-yellow-500 to-yellow-700">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 sm:py-2 lg:px-8">
+      <div className="mx-auto max-w-7xl overflow-hidden px-6 sm:py-2 py-2 lg:px-8">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"

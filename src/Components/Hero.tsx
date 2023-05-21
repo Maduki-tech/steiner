@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <div className="hero min-h-screen place-items-start bg-hero-pattern bg-cover bg-center md:place-items-center xl:bg-fixed">
       <div className="hero-overlay bg-black bg-opacity-30"></div>
-      <div className="hero-content text-center text-white">
-        <div className="flex max-w-md flex-col gap-20">
+      <div className="hero-content text-center text-white w-full">
+        <div className="flex max-w-md flex-col gap-20 ">
           <div>
             <motion.h1
               initial={{ opacity: 0, x: -20 }}

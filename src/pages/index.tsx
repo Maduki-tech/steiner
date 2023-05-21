@@ -63,12 +63,12 @@ const Home: NextPage = () => {
           />
         </svg>
         <Leistungen />
-        <section className="h-[20rem] xl:h-[30rem]">
-          <div className="container mx-auto flex flex-col gap-8 px-8 md:relative">
+        <section className="h-[30rem]">
+          <div className="container mx-auto flex flex-col md:gap-8 px-8 md:relative">
             <Image
               src={werbung}
               alt=""
-              className="inset-0 w-3/4 overflow-hidden rounded-md md:absolute lg:w-auto"
+              className="inset-0 w-full overflow-hidden rounded-md md:absolute lg:w-3/4"
             />
             <motion.div
               initial={{ opacity: 0, y: 50 }}

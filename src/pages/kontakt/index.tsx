@@ -144,21 +144,6 @@ export default function Index() {
                     erreicht.
                   </p>
                 </blockquote>
-                <figcaption className="mt-10 flex gap-x-6">
-                  <img
-                    src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=96&h=96&q=80"
-                    alt=""
-                    className="h-12 w-12 flex-none rounded-full bg-gray-50"
-                  />
-                  <div>
-                    <div className="text-base font-semibold text-gray-900">
-                      Brenna Goyette
-                    </div>
-                    <div className="text-sm leading-6 text-gray-600">
-                      Jahrelange Kundin
-                    </div>
-                  </div>
-                </figcaption>
               </figure>
             </div>
           </div>

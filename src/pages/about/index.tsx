@@ -80,7 +80,7 @@ export default function index() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <div>
-                <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className=" text-center mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                   Unsere Mission
                 </h2>
                 <div className="h-40 w-auto">

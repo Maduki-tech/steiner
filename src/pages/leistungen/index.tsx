@@ -30,7 +30,7 @@ const posts = [
     category: { title: "Doorman"},
   },
   {
-    title: "eventschutz",
+    title: "Eventschutz",
     description:
       "Unser Eventschutz umfasst professionelle Sicherheitspatrouillen, Zugangskontrolle, VIP-Schutz, Notfallreaktion und mehr. Wir bieten maßgeschneiderte Lösungen für Veranstaltungen jeder Größe und Art, um Ihnen ein Gefühl der Sicherheit und des Schutzes zu geben. Kontaktieren Sie uns, um mehr zu erfahren.",
     imageUrl:eventschutz,
