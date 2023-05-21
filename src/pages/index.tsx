@@ -24,7 +24,17 @@ const Home: NextPage = () => {
           name="description"
           content="Ihre Sicherheitsfirma des Vertrauens"
         />
-        <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:title" content="Steiner Security" />
+        <meta
+            property="og:description"
+            content="Ihre Sicherheitsfirma des Vertrauens"
+            />
+        <meta property="og:image" content="logo 1.png" />
+        <meta property="og:url" content="https://steiner-security.de" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Steiner Security" />
+        <link rel="icon" href="logo 1.png" />
       </Head>
       {/* <Navbar /> */}
       <Header />
