@@ -41,14 +41,6 @@ export default function Hero() {
               </Link>
             </motion.button>
           </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
-            className="flex items-center justify-center rounded-md bg-white/80"
-          >
-            <Image src={zert} alt="zert" />
-          </motion.div>
         </div>
       </div>
     </div>
