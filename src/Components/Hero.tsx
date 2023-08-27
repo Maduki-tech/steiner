@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import zert from "~/../public/zert.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
