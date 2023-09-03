@@ -6,9 +6,9 @@ import logo from "~/../public/logo 1.png";
 
 export default function Navbar() {
   return (
-    <div className="navbar md:flex-col bg-gradient-to-tr from-yellow-300 to-yellow-800 text-white">
+    <div className="navbar bg-gradient-to-tr from-yellow-300 to-yellow-800 text-white md:flex-col">
       <MobileMenu />
-      <div className="navbar-end md:navbar-center flex justify-center">
+      <div className="navbar-end flex justify-center md:navbar-center">
         <Link href="/" className="w-28 md:w-40">
           <Image src={logo} alt="logo" />
         </Link>
@@ -31,6 +31,9 @@ function DesktopMenu() {
         <NavItem path="/leistungen" currentPath={pathname}>
           Unsere Leistungen
         </NavItem>
+        <NavItem path="/vi-sec-turm" currentPath={pathname}>
+          Vi-Sec Turm
+        </NavItem>
         <NavItem path="/about" currentPath={pathname}>
           Über uns
         </NavItem>
@@ -45,7 +48,15 @@ function DesktopMenu() {
   );
 }
 
-function NavItem({ path, currentPath, children } : {path: string, currentPath: string, children: React.ReactNode}) {
+function NavItem({
+  path,
+  currentPath,
+  children,
+}: {
+  path: string;
+  currentPath: string;
+  children: React.ReactNode;
+}) {
   const isActive = currentPath === path;
   const linkClassName = isActive ? "border-y-2 border-yellow-500" : "";
 
@@ -60,7 +71,7 @@ function NavItem({ path, currentPath, children } : {path: string, currentPath: s
 
 function MobileMenu() {
   return (
-    <div className="md:hidden navbar-start">
+    <div className="navbar-start md:hidden">
       <div className="dropdown">
         <label tabIndex={0} className="btn-ghost btn-circle btn">
           <svg
@@ -90,6 +101,9 @@ function MobileMenu() {
           </li>
           <li>
             <Link href="/about">Über uns</Link>
+          </li>
+          <li>
+            <Link href="/vi-sec-turm"> Vi-Sec Turm </Link>
           </li>
           <li>
             <Link href="/kontakt">Kontakt </Link>

@@ -5,6 +5,8 @@ import cov from "~/../public/cov.jpg";
 import mask from "~/../public/mask.jpg";
 import { motion } from "framer-motion";
 
+
+
 export const Leistungen = () => {
   return (
     <div className="grid place-items-center gap-y-40 p-8 md:grid-cols-3 md:gap-8">

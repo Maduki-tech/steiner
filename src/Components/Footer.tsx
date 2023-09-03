@@ -5,6 +5,7 @@ const navigation = {
     { name: "Home", href: "/" },
     { name: "Unsere Leistungen", href: "/leistungen" },
     { name: "Über uns", href: "/about" },
+    { name: "Vi-sec Turm", href: "/vi-sec-turm" },
     { name: "Kontakt", href: "kontakt" },
     { name: "Jobs", href: "/jobs" },
     { name: "Impressum", href: "/impressum" },
@@ -13,7 +14,7 @@ const navigation = {
   social: [
     {
       name: "Facebook",
-      href: "/https://www.facebook.com/steinersec/?locale=de_DE",
+      href: "https://www.facebook.com/steinersec/?locale=de_DE",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -26,7 +27,7 @@ const navigation = {
     },
     {
       name: "Instagram",
-      href: "/https://www.instagram.com/tsssteiner/?hl=de",
+      href: "https://www.instagram.com/tsssteiner/?hl=de",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -37,13 +38,28 @@ const navigation = {
         </svg>
       ),
     },
+    {
+      name: "TikTok",
+      href: "https://www.tiktok.com/@steinerthomas1?lang=de-DE",
+      icon: (props: any) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          {...props}
+        >
+          {" "}
+          <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />{" "}
+        </svg>
+      ),
+    },
   ],
 };
 
 export default function Example() {
   return (
     <footer className="bg-gradient-to-tr from-yellow-500 to-yellow-700">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 sm:py-2 py-2 lg:px-8">
+      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-2 sm:py-2 lg:px-8">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
