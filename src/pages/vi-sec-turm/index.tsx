@@ -39,8 +39,7 @@ function Content() {
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 Baustellen, Gewerbeimmobilien, Betriebsgelände und
-                Veranstaltungen aller Art durch mobile Video-Türme von der ViSec
-                GmbH.
+                Veranstaltungen aller Art durch mobile Video-Türm.
               </p>
             </div>
           </div>
@@ -56,7 +55,7 @@ function Content() {
           <div className="lg:pr-4">
             <div className="flex max-w-xl flex-col gap-4 text-base leading-7 text-gray-700 lg:max-w-lg">
               <h1 className="mb-3 text-2xl font-bold">
-                Funktion des ViSec Videoturms{" "}
+                Funktion des Vi-Sec Videoturms{" "}
               </h1>
               <p>
                 Die Full HD PTZ- Überwachungskamera und die 4 bis 8 Mega Pixel
