@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Unsere Leistungen", href: "/leistungen" },
-  { name: "Vi-sec Turm", href: "/vi-sec-turm" },
+  { name: "Sicherheitsturm", href: "/sicherheitsturm" },
   { name: "Über uns", href: "/about" },
   { name: "Kontakt", href: "kontakt" },
   { name: "Jobs", href: "/jobs" },
